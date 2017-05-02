@@ -1,0 +1,29 @@
+html, body, #ws-container {
+  height: 100%;
+}
+
+body {
+  background: #565656;
+  /*linear-gradient(to top, rgba(86, 86, 86, 0.99), rgba(244, 187, 255, 0.20));*/
+    /* overlay */
+    /*linear-gradient(to right, rgba(243, 144, 79, 0.25), rgba(59, 67, 113, 0.25));*/
+    /* image */
+    /*url("../image/bg.jpg") no-repeat center center;*/
+/*background: linear-gradient(to right, rgb(219, 230, 246), rgb(197, 121, 109));*/
+}
+
+#panel {
+  background: linear-gradient(to top, rgba(191, 148, 228, 0.40), rgba(244, 187, 255, 0.20)),
+              url("../image/bg.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  height :100%;
+}
+
+#panel *{
+  background: none;
+
+
+}

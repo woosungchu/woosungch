@@ -9,26 +9,23 @@
 
     <title>Woosungchu</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/woosungchu.css') }}">
     <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
 
   </head>
   <body>
+    {% include 'nav.html' %}
 
-    <div id="panel" class="container">
+    <div id="ws-container" class="container">
       <div class="jumbotron">
         <h1>Woosungchu</h1>
-        <p class="lead">
-          <span>Thank you for visiting everyone!</span>
-          <a href="https://github.com/woosungchu"><i class="fa fa-github"></i></a>
-
-        </p>
-
+        <p class="lead">Do do dodo do~</p>
+      </div>
+      <div class="footer">
+        <p>&copy; Woosungchu</p>
       </div>
     </div>
-
 
 
   </body>
