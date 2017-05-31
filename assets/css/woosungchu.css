@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Graphik';
+}
+
+#ws-container{
+  height: 100%;
+  height: 100vh;
+}
+
+#ws-business-card {
+  height: 30%;
+  text-align: center;
+  background-color:#fff;
+  margin-top:15%;
+  margin-bottom: 14%;
+
+}
+#ws-business-card #name{
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 16px;
+}
+#ws-business-card #job{
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+.footer{
+  position: fixed;
+  bottom: 30px;
+  right: 40px;
+}
+
+.fa {
+    color: black !important;
+}
